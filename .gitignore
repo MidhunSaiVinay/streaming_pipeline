@@ -1,0 +1,21 @@
+# Local data & state
+datalake/
+checkpoints/
+logs/
+
+# Optional: cached libs
+jars/
+
+# Python noise
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Editor/OS
+.DS_Store
+.vscode/
+.idea/
+
+# Docker/airflow artifacts (if you add later)
+**/.pytest_cache/
